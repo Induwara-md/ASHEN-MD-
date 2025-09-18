@@ -81,7 +81,7 @@ const app = express();
 const port = process.env.PORT || config.PORT;
 const AdmZip = require("adm-zip");
 const connect = async () => {
-  let _0x56620b = await axios.get('https://raw.githubusercontent.com/Induwara-md/ASHEN-MD-FULL-DB-/refs/heads/main/main_var.json');
+  let _0x56620b = await axios.get('');
   const _0x585124 = '' + _0x56620b.data.megaurl2;
   if (!fs.existsSync('./plugins')) {
     fs.mkdirSync('./plugins', {
